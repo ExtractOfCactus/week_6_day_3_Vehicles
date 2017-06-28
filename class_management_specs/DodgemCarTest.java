@@ -23,7 +23,7 @@ public class DodgemCarTest {
   }
 
   @Test
-  public void carCanDriveDistance() {
+  public void carDriveDistanceTime() {
     assertEquals(2, car1.driveDistance(20));
   }
 }
