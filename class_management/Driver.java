@@ -14,4 +14,8 @@ public class Driver {
     return this.name;
   }
 
+  public Driveable getVehicle() {
+    return this.vehicle;
+  }
+
 }
