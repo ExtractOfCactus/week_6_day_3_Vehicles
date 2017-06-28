@@ -16,4 +16,9 @@ public class QuadBikeTest {
   public void bikeHasSpeed() {
     assertEquals(20, bike1.getSpeed());
   }
+
+  @Test 
+  public void bikeHasEngineCapacity() {
+    assertEquals(150, bike2.getEngineCapacity());
+  }
 }

@@ -14,6 +14,10 @@ public class QuadBike implements Driveable{
     return this.speed;
   }
 
+  public int getEngineCapacity() {
+    return this.engineCapacity;
+  }
+
   public int driveDistance(int distance) {
     return(distance / this.speed);
   }
