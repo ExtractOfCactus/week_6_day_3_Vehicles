@@ -30,8 +30,9 @@ public class DriverTest {
     assertEquals(car, driver.getVehicle());
   }
 
-  // @Test
-  // public void driverCanDriveDistance() {
-  //   assertEquals(5, driver.driveDistance(bike, 100))
-  // }
+  @Test
+  public void driverCanDriveDistance() {
+    driver.setVehicle(car);
+    assertEquals(15, driver.driveDistance(150));
+  }
 }

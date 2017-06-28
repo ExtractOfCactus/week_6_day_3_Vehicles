@@ -22,4 +22,8 @@ public class Driver {
     this.vehicle = vehicle;
   }
 
+  public int driveDistance(int distance) {
+    return this.vehicle.driveDistance(distance);
+  }
+
 }
