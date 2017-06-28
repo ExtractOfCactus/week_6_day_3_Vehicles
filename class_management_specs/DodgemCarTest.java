@@ -13,7 +13,12 @@ public class DodgemCarTest {
   }
 
   @Test
-  public void canHasSpeed() {
+  public void carHasSpeed() {
     assertEquals(8, car2.getSpeed());
+  }
+
+  @Test
+  public void carHasSeats() {
+    assertEquals(2, car1.getSeats());
   }
 }
