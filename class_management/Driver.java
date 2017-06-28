@@ -9,4 +9,9 @@ public class Driver {
     this.name = name;
     this.vehicle = vehicle;
   }
+
+  public String getName() {
+    return this.name;
+  }
+
 }
