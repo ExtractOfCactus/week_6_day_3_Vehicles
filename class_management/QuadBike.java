@@ -1,24 +1,24 @@
 package class_management;
 import behaviours.*;
 
-public class QuadBike implements Driveable{
+public class QuadBike extends Vehicle implements Driveable{
   int speed;
   int engineCapacity;
 
   public QuadBike(int speed, int engineCapacity) {
-    this.speed = speed;
+    super(speed);
     this.engineCapacity = engineCapacity;
   }
 
-  public int getSpeed() {
-    return this.speed;
-  }
+  // public int getSpeed() {
+  //   return this.speed;
+  // }
 
   public int getEngineCapacity() {
     return this.engineCapacity;
   }
 
-  public int driveDistance(int distance) {
-    return(distance / this.speed);
-  }
+  // public int driveDistance(int distance) {
+  //   return(distance / this.speed);
+  // }
 }
