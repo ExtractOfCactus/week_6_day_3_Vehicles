@@ -16,4 +16,9 @@ public class TankTest {
   public void tankHasSpeed() {
     assertEquals(30, tank1.getSpeed());
   }  
+
+  @Test
+  public void tankHasType() {
+    assertEquals("Tiger", tank2.getType());
+  }
 }

@@ -9,4 +9,8 @@ public class Tank extends Vehicle implements Driveable {
     super(speed);
     this.type = type;
   }
+
+  public String getType() {
+    return this.type;
+  }
 }
