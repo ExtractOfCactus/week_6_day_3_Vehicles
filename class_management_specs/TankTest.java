@@ -21,4 +21,9 @@ public class TankTest {
   public void tankHasType() {
     assertEquals("Tiger", tank2.getType());
   }
+
+  @Test
+  public void tankDriveDistanceTime() {
+    assertEquals(4, tank1.driveDistance(120));
+  }
 }
